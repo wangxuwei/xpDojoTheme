@@ -1,0 +1,45 @@
+.me .dijitToggleButton .dijitCheckBoxIcon {
+	background-image: url('../images/checkmarkNoBorder.png');
+}
+.dj_ie6 .me .dijitToggleButton .dijitCheckBoxIcon {
+	background-image: url('../images/checkmarkNoBorder.gif');
+}
+.me .dijitCheckBox,
+.me .dijitCheckBoxIcon			{
+	background-image: url('../images/checkmark.png'); 
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0 2px 0 0;
+	padding: 0;
+}
+.dj_ie6 .me .dijitCheckBox,
+.dj_ie6 .me .dijitCheckBoxIcon			{
+	background-image: url('../images/checkmark.gif'); 
+}
+.me .dijitCheckBox,
+.me .dijitToggleButton .dijitCheckBoxIcon {
+	
+	background-position: -16px;
+}
+.me .dijitCheckBoxChecked,
+.me .dijitToggleButtonChecked .dijitCheckBoxIcon {
+	
+	background-position: 0;
+}
+.me .dijitCheckBoxDisabled {
+	
+	background-position: -48px;
+}
+.me .dijitCheckBoxCheckedDisabled {
+	
+	background-position: -32px;
+}
+.me .dijitCheckBoxHover {
+	
+	background-position: -80px;
+}
+.me .dijitCheckBoxCheckedHover {
+	
+	background-position: -64px;
+}

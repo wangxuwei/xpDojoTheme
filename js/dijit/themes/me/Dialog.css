@@ -1,0 +1,128 @@
+
+.me .dijitDialog {
+	background: #fff;
+	border: 1px solid #7eabcd;
+	padding: 0;
+	-webkit-box-shadow: 0 5px 10px #adadad;
+}
+.me .dijitDialogPaneContent {
+	background: #fff;
+	border-top: 1px solid #d3d3d3;
+	padding:10px;
+}
+.me .dijitDialogTitleBar {
+	
+	padding: 5px 6px 3px 6px;
+	outline:0; 
+}
+.me .dijitDialogTitle {
+	
+	font-weight: bold;
+	padding: 0 4px;
+}
+.me .dijitDialogCloseIcon {
+	
+	
+	background: url("images/tabClose.png") no-repeat right top;
+	position: absolute;
+	vertical-align: middle;
+	right: 6px;
+	top: 4px;
+	height: 15px;
+	width: 15px;
+}
+.dj_ie6 .me .dijitDialogCloseIcon {
+	background : url("images/tabClose.gif") no-repeat right top;
+}
+.me .dijitDialogCloseIconHover {
+	background: url("images/tabCloseHover.png") no-repeat right top;
+}
+.dj_ie6 .me .dijitDialogCloseIconHover {
+	background : url("images/tabCloseHover.gif") no-repeat right top;
+}
+.me .dijitTooltip,
+.me .dijitTooltipDialog {
+	
+	background: transparent;	
+}
+.dijitTooltipBelow {
+	
+	padding-top: 13px;
+}
+.dijitTooltipAbove {
+	
+	padding-bottom: 13px;
+}
+.me .dijitTooltipContainer {
+	
+	background: #ffffff url("images/popupMenuBg.gif") repeat-x bottom left;
+	border: 1px solid #7eabcd;
+	padding: 0.45em;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.me .dijitTooltipConnector {
+	
+	border:0;
+	z-index: 2;
+}
+.me .dijitTooltipABRight .dijitTooltipConnector {
+	
+	left: auto !important;
+	right: 3px;
+}
+.me .dijitTooltipBelow .dijitTooltipConnector {
+	
+	top: 0;
+	left: 3px;
+	background:url("images/tooltipConnectorUp.png") no-repeat top left;
+	width:16px;
+	height:14px;
+}
+.dj_ie .me .dijitTooltipBelow .dijitTooltipConnector {
+	
+	background-image: url("images/tooltipConnectorUp.gif");
+}
+.me .dijitTooltipAbove .dijitTooltipConnector {
+	
+	bottom: 0;
+	left: 3px;
+	background:url("images/tooltipConnectorDown.png") no-repeat top left;
+	width:16px;
+	height:14px;
+}
+.dj_ie .me .dijitTooltipAbove .dijitTooltipConnector {
+	background-image: url("images/tooltipConnectorDown.gif");
+}
+.dj_ie6 .me .dijitTooltipAbove .dijitTooltipConnector {
+	bottom: -3px;
+}
+.me .dijitTooltipLeft {
+	padding-right: 14px;
+}
+.me .dijitTooltipLeft .dijitTooltipConnector {
+	
+	right: 0;
+	background:url("images/tooltipConnectorRight.png") no-repeat top left;
+	width:16px;
+	height:14px;
+}
+.dj_ie .me .dijitTooltipLeft .dijitTooltipConnector {
+	background-image: url("images/tooltipConnectorRight.gif");
+}
+.me .dijitTooltipRight {
+	padding-left: 14px;
+}
+.me .dijitTooltipRight .dijitTooltipConnector {
+	
+	left: 0;
+	background:url("images/tooltipConnectorLeft.png") no-repeat top left;
+	width:16px;
+	height:14px;
+}
+.dj_ie .me .dijitTooltipRight .dijitTooltipConnector {
+	background-image: url("images/tooltipConnectorLeft.gif");
+}
+.dj_webkit .me .dijitTooltipContainer {
+	-webkit-box-shadow: 0 5px 10px #adadad;
+}

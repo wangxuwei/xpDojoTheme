@@ -1,0 +1,56 @@
+
+.me .dijitInputContainer input {
+	margin: 0 0.1em;
+}
+.me .dijitTextArea {
+	padding: 3px;
+}
+.me .dijitSelect .dijitButtonContents,
+.me .dijitSelect,
+.me .dijitTextBox {
+	
+	background:#fff url("../images/validationInputBg.png") repeat-x top left;
+	#background:#fff url('../images/validationInputBg.gif') repeat-x top left;
+}
+.me .dijitSelect,
+.me .dijitTextBox {
+	border:1px solid #b3b3b3;
+}
+.me .dijitSelect .dijitArrowButton,
+.me .dijitComboBox .dijitButtonNode {
+	padding: 0 0.2em;
+}
+.me .dijitSelect .dijitButtonContents,
+.me .dijitTextBox .dijitButtonNode {
+	
+	border-color: #9b9b9b;
+}
+.me .dijitSelectFocused,
+.me .dijitTextBoxFocused {
+	
+	border-color:#406b9b;
+}
+.me .dijitSelectFocused TD,
+.me .dijitTextBoxFocused .dijitButtonNode {
+	border-color:#366dba;
+}
+.me .dijitError {
+	background-color:#f9f7ba;
+	background-image:none;
+}
+.me .dijitErrorFocused {
+	background-color:#f9f999;
+	background-image:none;
+}
+.me .dijitValidationTextBoxError .dijitValidationIcon {
+	
+	width: 16px;
+	background: transparent url('../images/warning.png') no-repeat center center;
+}
+.me .dijitComboBoxHighlightMatch {
+	background-color:#a5beda;
+}
+.me .dijitFocusedLabel {
+	
+	outline: 1px dotted #666666;
+}

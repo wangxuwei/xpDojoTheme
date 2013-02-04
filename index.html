@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Dojo Demo</title>
+    
+    <link rel="stylesheet/css" type="text/css" href="css/all.css">
+    <link rel="stylesheet" href="js/dijit/themes/me/me.css" />
+    <script type="text/javascript" src="js/dojo/dojo.js" data-dojo-config="async: true, parseOnLoad: true"></script>
+    
+    <script type="text/javascript" src="js/0_jquery.min.js"></script>
+    <script type="text/javascript" src="js/0_handlebars.runtime-1.0.rc.1.min.js"></script>
+    <script type="text/javascript" src="js/1_handlebars.common.helper.js"></script>
+    <script type="text/javascript" src="js/2_brite.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    
+    
+    <script type="text/javascript" src="js/templates.js"></script>
+    
+  </head>
+
+  <body class="me">
+  	<div id="bodyPage">
+  	</div>
+    <script>
+    $(function(){
+      brite.display("MainScreen","#bodyPage");
+    });
+    </script>
+  </body>
+</html>
