@@ -14,8 +14,8 @@
             init:function(){
               require(["dojo/ready", "dijit/Dialog","dojo/dom"], function(ready, Dialog,dom){
                 myDialog = new Dialog({
-                  title : "My Dialog",
-                  content : "Test content.",
+                  title : "RUNDLL",
+                  content : app.render("tmpl-MainScreen-dialogContent"),
                   style : "width: 300px"
                 }); 
                 myDialog.placeAt(dom.byId("bodyPage"));
